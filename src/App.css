@@ -1,38 +1,107 @@
+body {
+  background-color: #ccddff;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.container {
+  background-color: rgb(7,2,21);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  margin: 5% auto;
+}
+
+.header {
   color: white;
+  font-size: 2em;
+  margin-bottom: 20px;
+  /* width: 100%;   */
+  text-align: center;
+  padding: 12px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+input[type=text], select {
+  width: 70%;
+  padding:16px 24px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.list-heading {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  /* width: 100%; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-data {
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  padding: 2px 0;
+  /* border-radius: 10px; */
+  list-style-type:none;
+  margin: 10px auto;
+  /* width: 90%; */
+  justify-content: center;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item {
+  background-color: #ccddff;
+  padding: 12px 24px;
+  text-align: center;
+  border-radius: 8px;
+  color: blueviolet;
+  width: 60%;
+}
+
+.btn-position {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  border-radius: 10px;
+  /* text-align: center;
+  position: relative;
+  left: 11%;
+  top: -54px; */
+}
+
+.remove-all {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 10px;
 }
